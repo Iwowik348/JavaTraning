@@ -18,8 +18,8 @@ public class PersonTest {
     @Test
     void shouldCalculateBonus()
     {
-        Person tomHanks = new Person("Tom", "Hanks");
-        int actual = tomHanks.giveBonus(3, 10);
+        Person tomCruise = new Person("Tom", "Hanks");
+        int actual = tomCruise.giveBonus(3, 10);
         int expected = 20;
         assertThat(actual).as("Bonus actora zostal policzone nie prawidlowo").isEqualTo(expected);
     }
